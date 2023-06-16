@@ -32,10 +32,10 @@ struct SignIn: View {
                     .padding(.top, 20)
                     .padding(.trailing, 30)
                     
-                    InputField(text: $signInViewModel.cellPhoneNumber, num: "Enter a phone number")
+                    InputField(text: $signInViewModel.cellPhoneNumber, num: "Enter a phone number(12282575217)")
                         .disabled(signInViewModel.displayConfirmation)
                         .padding(.top, 50)
-                    InputField(text: $signInViewModel.confirmationCode, num: "Enter confirmation code")
+                    InputField(text: $signInViewModel.confirmationCode, num: "Enter confirmation code(111111)")
                         .disabled(!signInViewModel.displayConfirmation)
                         .padding(.top, 15)
                     
