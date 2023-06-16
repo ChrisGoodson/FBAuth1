@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>659316319848-ha5k3ti78mr38fm8k1mhg43n2ms10si6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.659316319848-ha5k3ti78mr38fm8k1mhg43n2ms10si6</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAAMXvGRDoExPmc_qG4MK3wJVcyirDaDeA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>659316319848</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>eng.auburn.edu.onlinecsse.FBAuth1</string>
+	<key>PROJECT_ID</key>
+	<string>fbauth1-debe4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fbauth1-debe4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:659316319848:ios:1b189ec318e9f01412bddd</string>
+</dict>
+</plist>
