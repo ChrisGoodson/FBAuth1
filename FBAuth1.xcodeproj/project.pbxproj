@@ -31,6 +31,7 @@
 		830750152A3BE6FB002B2DF1 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		830750172A3BE71A002B2DF1 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 		830750192A3BE73A002B2DF1 /* InputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputField.swift; sourceTree = "<group>"; };
+		8307501B2A3BED92002B2DF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +68,7 @@
 		830674C02A3BE5AB00671257 /* FBAuth1 */ = {
 			isa = PBXGroup;
 			children = (
+				8307501B2A3BED92002B2DF1 /* Info.plist */,
 				830750142A3BE6E2002B2DF1 /* ViewModel */,
 				830750122A3BE6CC002B2DF1 /* View */,
 				830674D12A3BE61E00671257 /* GoogleService-Info.plist */,
@@ -319,6 +321,7 @@
 				DEVELOPMENT_TEAM = 77KMF9SL3T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FBAuth1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -348,6 +351,7 @@
 				DEVELOPMENT_TEAM = 77KMF9SL3T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FBAuth1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

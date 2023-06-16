@@ -17,6 +17,7 @@ class SignInViewModel: ObservableObject {
     @Published var displayConfirmation: Bool = false
     @Published var displayError: Bool = false
     @Published var errorMsg: String = ""
+    @Published var isSignedIn: Bool = false
     
     func sendConfirmationCode() {
         UIApplication.shared.shutKeys()
@@ -44,6 +45,9 @@ class SignInViewModel: ObservableObject {
                 
                 try await Auth.auth().signIn(with: credential)
                 print("Signed In")
+                await MainActor.run {
+                    self.isSignedIn = true
+                }
             } catch {
                 await errorThrow(error: error)
             }
